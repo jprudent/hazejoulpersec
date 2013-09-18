@@ -1,14 +1,17 @@
 # hazejoulpersec
 
-A Clojure library designed to ... well, that part is up to you.
+A small exercise written in clojure, for fun
 
 ## Usage
 
-FIXME
+    -i input-file  ;; see test/hazejoulpersec/testfile.txt, default to standard input
+    -o output-file ;; default to standard output
+
+exemples
+
+    java -jar target/hazejoulpersec-0.1.0-SNAPSHOT-standalone.jar -i test/hazejoulpersec/testfile.txt -o /tmp/gop2
+    java -jar target/hazejoulpersec-0.1.0-SNAPSHOT-standalone.jar < test/hazejoulpersec/testfile.txt
 
 ## License
 
-Copyright © 2013 FIXME
-
-Distributed under the Eclipse Public License either version 1.0 or (at
-your option) any later version.
+Public Domain
