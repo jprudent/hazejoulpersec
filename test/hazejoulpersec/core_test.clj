@@ -20,7 +20,7 @@
   (read-problems "test/hazejoulpersec/testfile.txt"))))
 
 (deftest output
-  (is (= "40 80\n42 84"
+  (is (= "40 80\n42 84\n"
          (do
            (read-and-solve
              "test/hazejoulpersec/testfile.txt"
