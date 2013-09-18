@@ -9,7 +9,7 @@ A small exercise written in clojure, for fun
 
 exemples
 
-    java -jar target/hazejoulpersec-0.1.0-SNAPSHOT-standalone.jar -i https://raw.github.com/jprudent/hazejoulpersec/master/test/hazejoulpersec/testfile.txt -o /tmp/gop6
+    java -jar target/hazejoulpersec-0.1.0-SNAPSHOT-standalone.jar -i https://raw.github.com/jprudent/hazejoulpersec/master/test/hazejoulpersec/testfile.txt
     java -jar target/hazejoulpersec-0.1.0-SNAPSHOT-standalone.jar -i test/hazejoulpersec/testfile.txt -o /tmp/gop2
     java -jar target/hazejoulpersec-0.1.0-SNAPSHOT-standalone.jar < test/hazejoulpersec/testfile.txt
 
